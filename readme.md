@@ -12,11 +12,11 @@ This repository contains my layout configured with the [QMK Configurator](https:
 
 Go [QMK Configurator](https://config.qmk.fm/#/ferris/sweep/LAYOUT_split_3x5_2) web and on **KEYBOARD** select `ferris/sweep` and on **LAYOUT** select `LAYOUT_split_3x5_2`
 
-[qmk configurator options](qmk-configurator-0.png)
+![qmk configurator options](qmk-configurator-0.png)
 
 Then upload the `neowinx.json` file using the upload button
 
-[qmk configurator upload option](qmk-configurator-2.png)
+![qmk configurator upload option](qmk-configurator-2.png)
 
 Edit the layers and keys to your needs and then proceed to the next section to flash your keyboards
 
@@ -24,23 +24,23 @@ Edit the layers and keys to your needs and then proceed to the next section to f
 
 You have two options to get the compiled firmware.
 
-#### Download the firmware directly from QMK Configurator
+#### - Download the firmware directly from QMK Configurator
 
-Once you have edited the layout, layers, etc. you can download the `hex` file directly from QMK Configurator and use this to flash your micro controller
+Once you have edited the layout, layers, etc. you can download the `hex` (or `bin`) file directly from QMK Configurator and use this to flash your micro controller
 
-First compile the firmware using the **COMPILE** option. When the compilation process finish, the **FIRMWARE** button will be available, click it to start downloading the `hex` file
+First compile the firmware using the **COMPILE** option. When the compilation process finish, the **FIRMWARE** button will be available, click it to start downloading the `hex` (or `bin`) file
 
-#### Download the keymap json from QMK Configurator and compile it using qmk to obtain the hex file
+#### - Download the keymap json from QMK Configurator and compile it using qmk to obtain the firmware binary file
 
 Once you have installed `qmk`, click on the **Download this QMK Keymap JSON file** button in **QMK Configurator** and then copile it using the `qmk` compile command
 
-[qmk configurator options](qmk-configurator.png)
+![qmk configurator options](qmk-configurator.png)
 
 ```bash
 qmk compile neowinx.json
 ```
 
-The firmware (usually an .hex file) should be on your `QMK_HOME`
+The firmware (usually an .hex file) should be on your *$QMK_HOME* (usually `$HOME/qmk_firmware`)
 
 ### 3 - Flash your micro controller
 
