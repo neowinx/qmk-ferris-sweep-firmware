@@ -10,7 +10,7 @@ This repository contains my layout configured with the [QMK Configurator](https:
 
 ### 1 - Load and edit the keymap
 
-Go [QMK Configurator](https://config.qmk.fm/#/ferris/sweep/LAYOUT_split_3x5_2) web and on **KEYBOARD** select `ferris/sweep` and on **LAYOUT** select `LAYOUT_split_3x5_2`
+Go to the [QMK Configurator](https://config.qmk.fm/#/ferris/sweep/LAYOUT_split_3x5_2) web and on **KEYBOARD** select `ferris/sweep` and on **LAYOUT** select `LAYOUT_split_3x5_2`
 
 ![qmk configurator options](docs/img/qmk-configurator-0.png)
 
