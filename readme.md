@@ -24,13 +24,13 @@ Edit the layers and keys to your needs and then proceed to the next section to f
 
 You have two options to get the compiled firmware.
 
-#### - Download the firmware directly from QMK Configurator
+#### Option 1: Download the firmware directly from QMK Configurator
 
 Once you have edited the layout, layers, etc. you can download the `hex` (or `bin`) file directly from QMK Configurator and use this to flash your micro controller
 
 First compile the firmware using the **COMPILE** option. When the compilation process finish, the **FIRMWARE** button will be available, click it to start downloading the `hex` (or `bin`) file
 
-#### - Download the keymap json from QMK Configurator and compile it using qmk to obtain the firmware binary file
+#### Option 2: Download the keymap json from QMK Configurator and compile it using qmk to obtain the firmware binary file
 
 Once you have installed `qmk`, click on the **Download this QMK Keymap JSON file** button in **QMK Configurator** and then copile it using the `qmk` compile command
 
