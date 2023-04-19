@@ -49,7 +49,7 @@ avrdude: device signature = 0x1e9587 (probably m32u4)
 avrdude: Note: flash memory has been specified, an erase cycle will be performed.
          To disable this feature, specify the -D option.
 avrdude: erasing chip
-avrdude: reading input file /home/pflores/qmk_firmware/ferris_sweep_neowinx.hex for flash
+avrdude: reading input file $HOME/qmk_firmware/ferris_sweep_neowinx.hex for flash
          with 20036 bytes in 1 section within [0, 0x4e43]
          using 157 pages and 60 pad bytes
 avrdude: writing 20036 bytes flash ...
